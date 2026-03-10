@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -82,4 +83,35 @@ body {
 .chat-icon {
   width: 26px;
   height: 26px;
+=======
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+.titulo {
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    color: blue;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.parrafo {
+    color: green;
+    font-size: 20px;
+}
+
+.destacado {
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+>>>>>>> css
 }

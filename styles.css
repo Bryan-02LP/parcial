@@ -6,25 +6,36 @@ body {
     text-align: center;
 }
 
-.titulo {
-    color: red;
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info h1 {
     font-size: 48px;
     font-weight: bold;
+    color: #333333;
+    margin: 0;
 }
 
-.subtitulo {
-    color: blue;
-    font-size: 32px;
+.titulo {
+    color: red;
+    font-size: 20px;
     font-weight: bold;
 }
 
-.parrafo {
+.cambio {
     color: green;
-    font-size: 20px;
+    font-size: 14px;
 }
 
-.destacado {
-    color: orange;
-    font-size: 20px;
-    font-weight: bold;
+.icono {
+    font-size: 40px;
 }

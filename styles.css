@@ -1,85 +1,30 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  background-color: #1c1c2e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: 'Inter', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
 }
 
-.card {
-  background-color: #ffffff;
-  border-radius: 16px;
-  padding: 22px 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 260px;
-
+.titulo {
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
 }
 
-.card-left {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+.subtitulo {
+    color: blue;
+    font-size: 32px;
+    font-weight: bold;
 }
 
-.number {
-  font-size: 42px;
-  font-weight: 700;
-  color: #ffffff;
-  line-height: 1;
+.parrafo {
+    color: green;
+    font-size: 20px;
 }
 
-.label {
-  font-size: 14px;
-  color: #9ca3af;
-  font-weight: 400;
-  margin-top: 2px;
-}
-
-.change {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  margin-top: 6px;
-}
-
-.arrow-icon {
-  width: 14px;
-  height: 14px;
-}
-
-.percent {
-  font-size: 12px;
-  color: #4ade80;
-  font-weight: 600;
-}
-
-.since {
-  font-size: 12px;
-  color: #6b7280;
-  font-weight: 400;
-}
-
-.card-icon {
-  background-color: #5c3a00;
-  border-radius: 50%;
-  width: 56px;
-  height: 56px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.chat-icon {
-  width: 26px;
-  height: 26px;
+.destacado {
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
 }
